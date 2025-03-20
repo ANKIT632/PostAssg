@@ -78,7 +78,7 @@ const PostList = () => {
       </button>
 
     
-      {totalPages >= 2 && (
+      {totalPages >= 1 && (
   <div className="pagination-buttons flex justify-center my-4">
     {Array.from({ length: totalPages }, (_, index) => {
       const pageNumber = index + 1;
