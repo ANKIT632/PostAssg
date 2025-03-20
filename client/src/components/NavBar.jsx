@@ -19,7 +19,7 @@ const NavBar = () => {
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="bg-blue-600 p-4 shadow-md sticky top-0 z-40"
+            className="bg-gray-700 p-4 shadow-md sticky top-0 z-40"
         >
             <div className="container mx-auto flex justify-between items-center ">
                 <motion.div
@@ -40,7 +40,7 @@ const NavBar = () => {
                         className="text-white hover:text-gray-300 transition-colors duration-300"
                         whileHover={{ scale: 1.1 }}
                     >
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        <a href="https://github.com/ANKIT632/PostAssg" target="_blank" rel="noopener noreferrer">Source Code</a>
                     </motion.li>
 
                     <motion.li
