@@ -58,7 +58,7 @@ const PostList = () => {
  
 
   return (
-    <div className="relative flex flex-col  items-center ">
+    <div className="relative flex flex-col  items-center h-full">
       <motion.div
         className="grid  max-xs:grid-cols-1 md:w-[70%]   gap-6 p-6"
         initial={{ opacity: 0 }}
@@ -79,7 +79,7 @@ const PostList = () => {
 
     
       {totalPages >= 1 && (
-  <div className="pagination-buttons flex justify-center my-4">
+  <div className="pagination-buttons flex justify-center my-4 self-bottom">
     {Array.from({ length: totalPages }, (_, index) => {
       const pageNumber = index + 1;
       const isCurrentPage = page === pageNumber;

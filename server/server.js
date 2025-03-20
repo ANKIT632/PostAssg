@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use('/api/users', userRoutes);
 app.use('/api/posts', postRoutes);
 
-mongoose.connect('mongodb://0.0.0.0:27017/Assgn')
+mongoose.connect("mongodb+srv://dbPostAss:mR7Jma9RJRY2iKmX@post.f6yaa.mongodb.net/?retryWrites=true&w=majority&appName=post")
   .then(() => {
     console.log('db connect');
     
